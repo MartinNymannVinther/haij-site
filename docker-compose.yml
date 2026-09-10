@@ -1,0 +1,10 @@
+# Production compose for haij.dk, designed to be run by Coolify on the same
+# EU VPS as the tools. No secrets, no volumes, no database: the site is files.
+
+services:
+  site:
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "${SITE_PORT:-8080}:8080"
