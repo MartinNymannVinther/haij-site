@@ -6,5 +6,10 @@ services:
     build:
       context: .
     restart: unless-stopped
-    ports:
-      - "${SITE_PORT:-8080}:8080"
+    # No published port. Coolify's proxy reaches nginx over the compose
+    # network and terminates TLS in front of it; publishing 8080 on the host
+    # would also collide with the proxy's own 8080. Running this without a
+    # proxy: bind loopback explicitly with an override file and put one in
+    # front, e.g. ports: ["127.0.0.1:8080:8080"].
+    expose:
+      - "8080"

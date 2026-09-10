@@ -82,14 +82,17 @@ check at `/healthz`. `haij.dk` is the canonical host; nginx redirects
 
 1. **New resource → Docker Compose**, connect this repository, branch `main`.
    Coolify picks up `docker-compose.yml`. No environment variables are needed.
-2. Attach the domains `haij.dk` and `www.haij.dk` to the `site` service and let
-   Coolify provision TLS for both.
+2. Attach the domains `haij.dk` and `www.haij.dk` to the `site` service (as
+   `https://haij.dk:8080,https://www.haij.dk:8080`, so the proxy knows the
+   container port) and let Coolify provision TLS for both.
 3. Point DNS for `haij.dk` (A) and `www.haij.dk` (A or CNAME) at the server,
    the same way `app.haij.dk` already is.
 4. Push to `main` → Coolify redeploys.
 
-Running it anywhere else is `docker compose up -d --build`; the site is then
-on port 8080 and any reverse proxy can sit in front.
+Running it anywhere else is `docker compose up -d --build` plus a reverse
+proxy in front: the compose file publishes no port on purpose (see the
+comment in it). For a quick local look, `docker run -p 8080:8080` on the
+built image is enough.
 
 ## The seven dogmas
 
