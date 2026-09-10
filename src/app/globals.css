@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/*
+ * Haij design tokens, direction "2a" (warm paper / moss green). The light
+ * palette is the design handoff verbatim; the hex comments are the truth and
+ * the oklch values are the conversions. Kept identical to the app so the front
+ * page and the tools read as one family. Dark follows the system preference
+ * here; the site has no toggle, because it has no user to remember one for.
+ */
+
+:root {
+  --background: oklch(0.968 0.006 85); /* #f7f5f1 */
+  --foreground: oklch(0.245 0.008 75); /* #24221e */
+  --card: oklch(0.994 0.004 90); /* #fffdfa */
+  --card-foreground: oklch(0.245 0.008 75);
+  --primary: oklch(0.505 0.055 150); /* #4a6b53 */
+  --primary-foreground: oklch(0.968 0.006 85);
+  --primary-hover: oklch(0.385 0.05 150); /* #31513c */
+  --primary-active: oklch(0.345 0.045 150); /* #2c4a37 */
+  --secondary: oklch(0.953 0.007 85); /* #f2efe9 */
+  --secondary-foreground: oklch(0.375 0.008 80); /* #4a463f */
+  --muted: oklch(0.935 0.008 85); /* #f0ece5 */
+  --muted-foreground: oklch(0.5 0.008 80); /* #6b665d */
+  --accent: oklch(0.925 0.017 150); /* #e4ebe4 */
+  --accent-foreground: oklch(0.385 0.05 150); /* #31513c */
+  --success: oklch(0.385 0.05 150); /* ink #31513c */
+  --success-tint: oklch(0.925 0.017 150); /* #e4ebe4 */
+  --warning: oklch(0.475 0.075 55); /* ink #8c5b3e */
+  --warning-tint: oklch(0.938 0.018 55); /* #f6e8e0 */
+  --label: oklch(0.68 0.008 82); /* #a39d92 */
+  --meta: oklch(0.585 0.008 82); /* #8a8479 */
+  --hairline: oklch(0.935 0.008 85); /* #f0ece5 */
+  --border: oklch(0.918 0.008 85); /* #eae5dc */
+  --ring: oklch(0.505 0.055 150);
+  --chart-1: oklch(0.505 0.055 150); /* #4a6b53 */
+  --chart-2: oklch(0.635 0.04 150); /* #7a9a80 */
+  --chart-3: oklch(0.8 0.012 85); /* #c9c2b6 */
+  --radius: 0.75rem;
+  --surface-shadow: 0 1px 2px oklch(0.245 0.008 75 / 0.04);
+  --font-sans: "Archivo Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: oklch(0.185 0.006 80);
+    --foreground: oklch(0.94 0.006 85);
+    --card: oklch(0.225 0.006 82);
+    --card-foreground: oklch(0.94 0.006 85);
+    --primary: oklch(0.66 0.075 150);
+    --primary-foreground: oklch(0.17 0.012 150);
+    --primary-hover: oklch(0.72 0.08 150);
+    --primary-active: oklch(0.76 0.08 150);
+    --secondary: oklch(0.27 0.006 82);
+    --secondary-foreground: oklch(0.9 0.006 85);
+    --muted: oklch(0.265 0.006 82);
+    --muted-foreground: oklch(0.7 0.008 82);
+    --accent: oklch(0.315 0.035 150);
+    --accent-foreground: oklch(0.85 0.06 150);
+    --success: oklch(0.78 0.085 150);
+    --success-tint: oklch(0.315 0.035 150);
+    --warning: oklch(0.8 0.085 62);
+    --warning-tint: oklch(0.32 0.04 55);
+    --label: oklch(0.6 0.008 82);
+    --meta: oklch(0.66 0.008 82);
+    --hairline: oklch(1 0 0 / 7%);
+    --border: oklch(1 0 0 / 9%);
+    --ring: oklch(0.66 0.075 150);
+    --chart-1: oklch(0.66 0.075 150);
+    --chart-2: oklch(0.72 0.05 150);
+    --chart-3: oklch(0.45 0.01 82);
+    --surface-shadow: 0 1px 2px oklch(0 0 0 / 0.3);
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-active: var(--primary-active);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-success-tint: var(--success-tint);
+  --color-warning: var(--warning);
+  --color-warning-tint: var(--warning-tint);
+  --color-label: var(--label);
+  --color-meta: var(--meta);
+  --color-hairline: var(--hairline);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-sans);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    scrollbar-color: color-mix(in oklch, var(--muted-foreground) 35%, transparent) transparent;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+  ::selection {
+    background: color-mix(in oklch, var(--primary) 18%, transparent);
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+  /* Anchored sections land below the sticky header. */
+  [id] {
+    scroll-margin-top: 5rem;
+  }
+}
+
+@layer components {
+  .prose-haij {
+    @apply text-foreground/90 max-w-2xl text-[0.95rem] leading-7;
+  }
+  .prose-haij h2 {
+    @apply mt-9 mb-2 text-lg;
+  }
+  .prose-haij p {
+    @apply mb-4;
+  }
+  .prose-haij a {
+    @apply text-primary underline decoration-primary/40 underline-offset-4 hover:decoration-primary;
+  }
+}
