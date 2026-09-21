@@ -85,14 +85,78 @@ export const tools: Tool[] = [
         tagline: "Planen der holder sig selv opdateret.",
         description:
           "Projektværktøjet til små projekter med 2 til 10 deltagere. Beskriv projektet i almindeligt sprog og få mål, milepæle og opgaver. AI'en skriver ugens status og foreslår ændringer når virkeligheden flytter sig. Du siger ja eller nej, og alt kan fortrydes.",
-        note: "Nyeste medlem af familien. I drift siden september 2026, og kanterne er stadig varme.",
+        note: "I drift siden september 2026, og kanterne er stadig varme.",
       },
       en: {
         name: "Ajour",
         tagline: "The plan that keeps itself up to date.",
         description:
           "The project tool for small projects with 2 to 10 people. Describe the project in plain language and get goals, milestones and tasks. The AI writes the weekly status and suggests changes when reality moves. You say yes or no, and everything can be undone.",
-        note: "The newest member of the family. Live since September 2026, still warm from the oven.",
+        note: "Live since September 2026, still warm from the oven.",
+      },
+    },
+  },
+  {
+    id: "domino",
+    host: "domino.haij.dk",
+    status: "new",
+    url: "https://domino.haij.dk",
+    applyUrl: "https://domino.haij.dk/register",
+    demoUrl: "https://domino.haij.dk/demo",
+    repoUrl: "https://github.com/MartinNymannVinther/domino",
+    image: {
+      name: "domino-nyt-flow",
+      alt: {
+        da: "Et nyt flow i Domino: et felt til at beskrive hvad flowet skal gøre, og tre eksempler at starte fra",
+        en: "A new flow in Domino: a field to describe what the flow should do, and three examples to start from",
+      },
+    },
+    text: {
+      da: {
+        name: "Domino",
+        tagline: "Stil brikkerne op. Skub til den første.",
+        description:
+          'Den visuelle flow-bygger til AI-arbejdsgange, for folk der ikke programmerer. Beskriv hvad du vil have, fx "læs de to hundrede ansøgninger, træk fem punkter ud af hver og sæt dem i en tabel", og modellen stiller brikkerne op: input, sprogmodel, skema, dokument, hvis/ellers, løkke, kombinér, skabelon, output. Ret i det på lærredet eller i samtalen, test på ét eksempel, kør hele bunken og se det ske brik for brik. Et flow er én fil, du kan eksportere, importere og lægge under versionsstyring. Kører hos Mistral i EU eller på din egen maskine med Ollama.',
+        note: "Ny i vinduet, september 2026. Version 0.9 er bygget færdig, men den første rigtige bunke er ikke kørt igennem endnu. Prøv demoen uden konto, eller ansøg om adgang.",
+      },
+      en: {
+        name: "Domino",
+        tagline: "Line the bricks up. Push the first one.",
+        description:
+          'The visual flow builder for AI workflows, for people who do not program. Say what you want, such as "read the two hundred applications, pull five points out of each and put them in a table", and the model lines up the bricks: input, language model, schema, document, if/else, loop, combine, template, output. Change it on the canvas or in the conversation, test on one example, run the whole pile and watch it happen brick by brick. A flow is one file you can export, import and keep under version control. Runs at Mistral in the EU or on your own machine with Ollama.',
+        note: "New in the window, September 2026. Version 0.9 is built, but the first real pile has not been run through it yet. Try the demo without an account, or apply for access.",
+      },
+    },
+  },
+  {
+    id: "makker",
+    host: "makker.haij.dk",
+    status: "new",
+    url: "https://makker.haij.dk",
+    applyUrl: "https://makker.haij.dk/register",
+    demoUrl: "https://makker.haij.dk/demo",
+    repoUrl: "https://github.com/MartinNymannVinther/makker",
+    image: {
+      name: "makker-start",
+      alt: {
+        da: "Startskærmen i Makker: et skrivefelt, valg af rolle og et bibliotek af opgaver, fx svar på en henvendelse, et notat og en mødeindkaldelse",
+        en: "The start screen in Makker: a writing field, a role picker and a library of tasks such as answering an enquiry, a memo and a meeting invitation",
+      },
+    },
+    text: {
+      da: {
+        name: "Makker",
+        tagline: "En at tænke højt med.",
+        description:
+          "Chatten oven på sprogmodeller der bliver i EU eller på din egen server. Skriv som du taler, vedhæft et referat eller et udkast, vælg en rolle, fx sparringspartner, djævlens advokat eller sprogvasker, og læs svaret mens det skrives. Bed om et notat eller et oplæg og hent det som Word eller PowerPoint. Et filter i browseren stopper personoplysninger før de forlader maskinen, og hver samtale er din egen: ingen andre i arbejdsrummet kan se den, heller ikke chefen. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
+        note: "Ny i vinduet, september 2026. Version 0.9 er bygget færdig, men den første rigtige uges tænken højt mangler stadig. Prøv demoen uden konto, eller ansøg om adgang.",
+      },
+      en: {
+        name: "Makker",
+        tagline: "Someone to think out loud with.",
+        description:
+          "The chat on top of language models that stay in the EU or on your own server. Write the way you talk, attach minutes or a draft, pick a role such as sparring partner, devil's advocate or plain-language editor, and read the answer as it is written. Ask for a memo or a deck and download it as Word or PowerPoint. A filter in the browser stops personal data before it leaves the machine, and every conversation is your own: nobody else in the workspace can see it, not the boss either. Runs at Mistral in the EU or on your own machine with Ollama.",
+        note: "New in the window, September 2026. Version 0.9 is built, but the first real week of thinking out loud is still to come. Try the demo without an account, or apply for access.",
       },
     },
   },
@@ -113,27 +177,6 @@ export const tools: Tool[] = [
         tagline: "The quarterly rhythm of a portfolio.",
         description:
           "Ideas, initiative cards, capacity, the prioritization meeting, status reports and a decision log, plus a project room with phases, decision points, risks and benefits. Built for and used at a customer. Goes in the window once it has been made generic.",
-        note: "Coming",
-      },
-    },
-  },
-  {
-    id: "chat",
-    host: "chat.haij.dk",
-    status: "coming",
-    text: {
-      da: {
-        name: "Chat",
-        tagline: "Chat med de modeller du selv vælger.",
-        description:
-          "EU-hostede skymodeller eller lokale modeller gennem Ollama, med filupload og eksport til Word. Med en lokal model forlader hverken spørgsmål, filer eller svar din maskine. Det mindste løft af de fire, så den kommer nok først.",
-        note: "På vej",
-      },
-      en: {
-        name: "Chat",
-        tagline: "Chat with the models you choose.",
-        description:
-          "EU-hosted cloud models or local models through Ollama, with file upload and export to Word. With a local model, neither questions, files nor answers leave your machine. The smallest lift of the four, so it will probably arrive first.",
         note: "Coming",
       },
     },

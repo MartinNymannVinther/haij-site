@@ -78,7 +78,7 @@ export const copy: Record<Locale, Copy> = {
     meta: {
       title: "Haij · Open source-værktøjer til arbejdet",
       description:
-        "Haij er en lille familie af open source-værktøjer til kunder, timer, fakturaer og projekter. Vi bygger dem, driver dem og bruger dem selv. Åben kode, dine data, EU eller egen drift.",
+        "Haij er en lille familie af open source-værktøjer til kunder, timer, fakturaer, projekter og AI der bliver i EU. Vi bygger dem, driver dem og bruger dem selv. Åben kode, dine data, EU eller egen drift.",
     },
     nav: {
       tools: "Værktøjer",
@@ -93,7 +93,7 @@ export const copy: Record<Locale, Copy> = {
       title: "Gode værktøjer til arbejdet.",
       titleAccent: "Kig bare ind.",
       subtitle:
-        "Haij er en lille familie af open source-værktøjer til kunder, timer, fakturaer og projekter. Vi bygger dem, driver dem og bruger dem selv hver dag. Koden er åben, dataene er dine, og du kan tage det hele med dig den dag du vil.",
+        "Haij er en lille familie af open source-værktøjer til kunder, timer, fakturaer, projekter og AI der bliver i EU. Vi bygger dem, driver dem og bruger dem selv hver dag. Koden er åben, dataene er dine, og du kan tage det hele med dig den dag du vil.",
       ctaPrimary: "Se værktøjerne",
       ctaSecondary: "Læs dogmerne",
       honesty:
@@ -103,7 +103,7 @@ export const copy: Record<Locale, Copy> = {
       kicker: "Vinduet",
       title: "Værktøjerne",
       intro:
-        "Bygget til rigtigt arbejde, ikke til en demo. To er i drift, to er på vej, og vi lover ikke mere end det.",
+        "Bygget til rigtigt arbejde, ikke til en demo. Fire er i drift, én er på vej, og vi lover ikke mere end det.",
       status: { live: "I drift", new: "Ny", coming: "På vej" },
       open: "Åbn",
       apply: "Ansøg om adgang",
@@ -111,7 +111,7 @@ export const copy: Record<Locale, Copy> = {
       code: "Se koden",
       comingTitle: "På vej ind i vinduet",
       comingIntro:
-        "Koden findes, og begge har kørt rigtigt arbejde. De mangler det sidste før vi tør vise dem frem: rensning, en demo og en README man kan følge. Vi opdaterer siden her når de flytter sig.",
+        "Koden findes, og den har kørt rigtigt arbejde hos en kunde. Den mangler det sidste før vi tør vise den frem: rensning, en demo og en README man kan følge. Vi opdaterer siden her når den flytter sig.",
     },
     dogmas: {
       kicker: "Syv dogmer",
@@ -186,7 +186,7 @@ export const copy: Record<Locale, Copy> = {
     meta: {
       title: "Haij · Open source tools for work",
       description:
-        "Haij is a small family of open source tools for customers, hours, invoices and projects. We build them, run them and use them ourselves. Open code, your data, EU or your own servers.",
+        "Haij is a small family of open source tools for customers, hours, invoices, projects and AI that stays in the EU. We build them, run them and use them ourselves. Open code, your data, EU or your own servers.",
     },
     nav: {
       tools: "Tools",
@@ -201,7 +201,7 @@ export const copy: Record<Locale, Copy> = {
       title: "Good tools for work.",
       titleAccent: "Come on in.",
       subtitle:
-        "Haij is a small family of open source tools for customers, hours, invoices and projects. We build them, run them and use them ourselves every day. The code is open, the data is yours, and you can take all of it with you the day you want to.",
+        "Haij is a small family of open source tools for customers, hours, invoices, projects and AI that stays in the EU. We build them, run them and use them ourselves every day. The code is open, the data is yours, and you can take all of it with you the day you want to.",
       ctaPrimary: "See the tools",
       ctaSecondary: "Read the dogmas",
       honesty:
@@ -211,15 +211,15 @@ export const copy: Record<Locale, Copy> = {
       kicker: "The window",
       title: "The tools",
       intro:
-        "Built for real work, not for a demo. Two are in production, two are on their way, and we promise nothing beyond that.",
+        "Built for real work, not for a demo. Four are in production, one is on its way, and we promise nothing beyond that.",
       status: { live: "In production", new: "New", coming: "Coming" },
       open: "Open",
       apply: "Apply for access",
       demo: "Try the demo",
       code: "See the code",
-      comingTitle: "On their way into the window",
+      comingTitle: "On its way into the window",
       comingIntro:
-        "The code exists, and both have done real work. They are missing the last bit before we dare show them: a clean-up, a demo and a README you can follow. We update this page when they move.",
+        "The code exists, and it has done real work at a customer. It is missing the last bit before we dare show it: a clean-up, a demo and a README you can follow. We update this page when it moves.",
     },
     dogmas: {
       kicker: "Seven dogmas",
