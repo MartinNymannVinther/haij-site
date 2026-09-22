@@ -1,14 +1,15 @@
 # haij.dk
 
-The front page of Haij: a small family of open source tools for customers,
-hours, invoices, projects and AI that stays in the EU, shown in one window
-together with the seven dogmas every tool signs up to. This repository is only the front page. The
+The front page of Haij: a small collection of open source tools for work,
+for customers and hours, projects and teams, and AI that stays in the EU,
+shown in one window together with the seven dogmas every tool signs up to. This repository is only the front page. The
 tools live in their own repositories and on their own subdomains:
 
 | Tool       | Where                          | Code                                          |
 | ---------- | ------------------------------ | --------------------------------------------- |
 | Forretning | https://app.haij.dk            | https://github.com/MartinNymannVinther/haij   |
 | Ajour      | https://ajour.haij.dk          | https://github.com/MartinNymannVinther/ajour  |
+| Tavle      | https://tavle.haij.dk          | https://github.com/MartinNymannVinther/tavle  |
 | Domino     | https://domino.haij.dk         | https://github.com/MartinNymannVinther/domino |
 | Makker     | https://makker.haij.dk         | https://github.com/MartinNymannVinther/makker |
 | Portefølje | portefolje.haij.dk, on its way | not yet public                                |

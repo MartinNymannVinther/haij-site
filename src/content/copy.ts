@@ -78,7 +78,7 @@ export const copy: Record<Locale, Copy> = {
     meta: {
       title: "Haij · Open source-værktøjer til arbejdet",
       description:
-        "Haij er en lille familie af open source-værktøjer til kunder, timer, fakturaer, projekter og AI der bliver i EU. Vi bygger dem, driver dem og bruger dem selv. Åben kode, dine data, EU eller egen drift.",
+        "Haij er en lille samling open source-værktøjer til arbejdet: kunder og timer, projekter og teams, og AI der bliver i EU. Vi bygger dem, driver dem og bruger dem selv. Koden er åben, og dataene er dine.",
     },
     nav: {
       tools: "Værktøjer",
@@ -90,20 +90,20 @@ export const copy: Record<Locale, Copy> = {
     },
     hero: {
       eyebrow: "Open source · AGPL-3.0 · Hostet i EU eller hos dig selv",
-      title: "Gode værktøjer til arbejdet.",
+      title: "Værktøjer til arbejdet.",
       titleAccent: "Kig bare ind.",
       subtitle:
-        "Haij er en lille familie af open source-værktøjer til kunder, timer, fakturaer, projekter og AI der bliver i EU. Vi bygger dem, driver dem og bruger dem selv hver dag. Koden er åben, dataene er dine, og du kan tage det hele med dig den dag du vil.",
+        "Haij er en lille samling open source-værktøjer til arbejdet: kunder og timer, projekter og teams, og AI der bliver i EU eller på din egen maskine. Vi bygger dem fordi vi selv har brug for dem, og vi bruger dem hver dag. Du kan prøve dem, læse koden og køre dem selv.",
       ctaPrimary: "Se værktøjerne",
       ctaSecondary: "Læs dogmerne",
       honesty:
-        "Vi siger hvad der er i drift, hvad der er på vej, og hvad der stadig kun er en god idé.",
+        "Vi skriver hvad der er i drift, hvad der er nyt, og hvad der stadig kun er en god idé.",
     },
     tools: {
       kicker: "Vinduet",
       title: "Værktøjerne",
       intro:
-        "Bygget til rigtigt arbejde, ikke til en demo. Fire er i drift, én er på vej, og vi lover ikke mere end det.",
+        "Fem kan du prøve i dag, én er på vej. De er bygget til rigtigt arbejde, og de står alle på samme fundament: arbejdsrum der er adskilt i databasen, en auditlog, passkeys og eksport af alt. Det er derfor de kan starte som legeplads for ét team og holde, hvis en hel organisation flytter ind.",
       status: { live: "I drift", new: "Ny", coming: "På vej" },
       open: "Åbn",
       apply: "Ansøg om adgang",
@@ -111,34 +111,34 @@ export const copy: Record<Locale, Copy> = {
       code: "Se koden",
       comingTitle: "På vej ind i vinduet",
       comingIntro:
-        "Koden findes, og den har kørt rigtigt arbejde hos en kunde. Den mangler det sidste før vi tør vise den frem: rensning, en demo og en README man kan følge. Vi opdaterer siden her når den flytter sig.",
+        "Koden findes, og den har kørt rigtigt arbejde hos en kunde. Den mangler det sidste før vi viser den frem: en rensning, en demo og en README man kan følge. Vi skriver her når den flytter sig.",
     },
     dogmas: {
       kicker: "Syv dogmer",
       title: "Det vi skriver under på.",
       intro:
-        "Reglerne hvert værktøj i vinduet følger, uanset hvem der har bygget det. De er formuleret så de kan testes, ikke så de lyder godt.",
+        "De regler hvert værktøj i vinduet følger, uanset hvem der har bygget det. De er skrevet så man kan tjekke dem, ikke så de lyder godt.",
       aside:
-        "Syv er i overkanten for et manifest. Vi kunne bare ikke slå to sammen uden at miste noget der kan efterprøves.",
+        "Syv er mange. Vi prøvede at slå nogle sammen, men hver gang mistede vi noget man kan efterprøve.",
       checklist: "Se tjeklisten før vinduet",
     },
     ways: {
       kicker: "Sådan",
       title: "Tre veje ind.",
       intro:
-        "Der er ingen forretningsmodel bag koden. Det man kan betale for, er drift, vedligehold, support og rådgivning. Aldrig funktioner der er holdt tilbage.",
+        "Koden er hele koden, og den er gratis. Det man kan betale os for, er drift, vedligehold, support og rådgivning. Ikke funktioner der er holdt tilbage.",
       items: [
         {
           title: "Brug det hos os",
-          text: "Ansøg om adgang til det værktøj du vil bruge, så lukker vi dig ind. Vi driver alt hos EU-ejede leverandører på EU-jord. Rigtige data kræver en databehandleraftale, og den er en del af ansøgningen.",
+          text: "Ansøg om adgang til det værktøj du vil bruge, så lukker vi dig ind. Vi driver alt hos EU-ejede leverandører på EU-jord. Skal der rigtige data i, laver vi en databehandleraftale, og den er en del af ansøgningen.",
         },
         {
           title: "Kør det selv",
-          text: "Klon repoet, kør docker compose up, og peg på din egen Ollama. Én server, én Postgres, ingen nøgler til en sky. Testen er enkel: træk stikket til internettet, og alt væsentligt virker stadig.",
+          text: "Klon repoet, kør docker compose up, og peg på din egen Ollama. Én server, én Postgres, ingen nøgler til en sky. Det er nok til at prøve det af en fredag eftermiddag, og det er den samme opsætning der kører i et rigtigt driftsmiljø.",
         },
         {
           title: "Lad os drive det",
-          text: "Vil I have et værktøj hostet, laver vi en aftale om drift, backup, oppetid og support til en pris der dækker arbejdet. Vil I hellere køre det selv, hjælper vi jer i gang. Samme kode i begge tilfælde.",
+          text: "Vil I have et værktøj hostet til jeres organisation, laver vi en aftale om drift, backup, oppetid og support til en pris der dækker arbejdet. Vil I hellere køre det i eget datacenter eller hos jeres egen leverandør, hjælper vi jer i gang. Det er samme kode, uanset hvor den kører.",
         },
       ],
       applyTo: "Ansøg om adgang til",
@@ -158,9 +158,9 @@ export const copy: Record<Locale, Copy> = {
       kicker: "Om",
       title: "Om Haij",
       paragraphs: [
-        "Haij drives af Vinther Consulting og er startet af Martin Nymann Vinther, som har arbejdet med store organisationers transformationer i to årtier og nu udover sin rådgivning også deler værktøjerne her.",
-        "Ingen investorer, ingen vækstplan, ingen funktioner bag en betalingsmur. Bare værktøjer vi selv har brug for, og en holdning til hvordan software til arbejdet burde være.",
-        "Koden er offentlig, og du er velkommen til at bruge den, læse den, melde fejl og sende ændringer. Vil du have et værktøj hostet, eller har du selv et værktøj der lever op til dogmerne, så skriv.",
+        "Haij drives af Vinther Consulting og er startet af Martin Nymann Vinther. Martin har arbejdet med store organisationers transformationer i to årtier, og værktøjerne her er vokset ud af det arbejde: ting vi manglede, og som vi hellere ville bygge ordentligt end købe halvfærdigt.",
+        "Der er ingen investorer og ingen vækstplan. Haij er lige så meget et værksted som et produkt: et sted hvor vi prøver ting af, i det åbne, men med de samme krav til sikkerhed og data som en stor organisation ville stille. Det er derfor der er dogmer og en tjekliste, og ikke bare en roadmap.",
+        "Koden er offentlig, og du er velkommen til at bruge den, læse den, melde fejl og sende ændringer. Vil du have et værktøj hostet, eller har du selv et der lever op til dogmerne, så skriv til os.",
       ],
       contact: "Skriv til",
       security: "Meld et sikkerhedshul",
@@ -169,7 +169,7 @@ export const copy: Record<Locale, Copy> = {
     },
     footer: {
       license: "Open source under AGPL-3.0",
-      made: "Bygget i Danmark. Hostet i EU. Kaffen er vores egen.",
+      made: "Bygget i Danmark. Hostet i EU. Brugt hver dag.",
       privacy: "Privatliv",
       terms: "Vilkår for demoer",
       checklist: "Klar til vinduet",
@@ -186,7 +186,7 @@ export const copy: Record<Locale, Copy> = {
     meta: {
       title: "Haij · Open source tools for work",
       description:
-        "Haij is a small family of open source tools for customers, hours, invoices, projects and AI that stays in the EU. We build them, run them and use them ourselves. Open code, your data, EU or your own servers.",
+        "Haij is a small collection of open source tools for work: customers and hours, projects and teams, and AI that stays in the EU. We build them, run them and use them ourselves. The code is open, and the data is yours.",
     },
     nav: {
       tools: "Tools",
@@ -198,20 +198,20 @@ export const copy: Record<Locale, Copy> = {
     },
     hero: {
       eyebrow: "Open source · AGPL-3.0 · Hosted in the EU or on your own servers",
-      title: "Good tools for work.",
+      title: "Tools for work.",
       titleAccent: "Come on in.",
       subtitle:
-        "Haij is a small family of open source tools for customers, hours, invoices, projects and AI that stays in the EU. We build them, run them and use them ourselves every day. The code is open, the data is yours, and you can take all of it with you the day you want to.",
+        "Haij is a small collection of open source tools for work: customers and hours, projects and teams, and AI that stays in the EU or on your own machine. We build them because we need them ourselves, and we use them every day. You can try them, read the code and run them yourself.",
       ctaPrimary: "See the tools",
       ctaSecondary: "Read the dogmas",
       honesty:
-        "We say what is in production, what is on its way, and what is still only a good idea.",
+        "We write down what is in production, what is new, and what is still only a good idea.",
     },
     tools: {
       kicker: "The window",
       title: "The tools",
       intro:
-        "Built for real work, not for a demo. Four are in production, one is on its way, and we promise nothing beyond that.",
+        "Five you can try today, one is on its way. They are built for real work, and they all stand on the same foundation: workspaces separated in the database, an audit log, passkeys and export of everything. That is why they can start as a playground for one team and hold up when a whole organization moves in.",
       status: { live: "In production", new: "New", coming: "Coming" },
       open: "Open",
       apply: "Apply for access",
@@ -219,34 +219,34 @@ export const copy: Record<Locale, Copy> = {
       code: "See the code",
       comingTitle: "On its way into the window",
       comingIntro:
-        "The code exists, and it has done real work at a customer. It is missing the last bit before we dare show it: a clean-up, a demo and a README you can follow. We update this page when it moves.",
+        "The code exists, and it has done real work at a customer. It is missing the last bit before we show it: a clean-up, a demo and a README you can follow. We write here when it moves.",
     },
     dogmas: {
       kicker: "Seven dogmas",
       title: "What we sign up to.",
       intro:
-        "The rules every tool in the window follows, no matter who built it. They are written so they can be tested, not so they sound good. The Danish wording is the original.",
+        "The rules every tool in the window follows, no matter who built it. They are written so you can check them, not so they sound good. The Danish wording is the original.",
       aside:
-        "Seven is a lot for a manifesto. We just could not merge two without losing something that can be checked.",
+        "Seven is a lot. We tried merging some, but every time we lost something that can be checked.",
       checklist: "See the checklist before the window",
     },
     ways: {
       kicker: "How",
       title: "Three ways in.",
       intro:
-        "There is no business model behind the code. What can be paid for is operations, maintenance, support and advice. Never features held back.",
+        "The code is the whole code, and it is free. What you can pay us for is operations, maintenance, support and advice. Not features held back.",
       items: [
         {
           title: "Use it with us",
-          text: "Apply for access to the tool you want to use, and we let you in. We run everything with EU-owned providers on EU soil. Real data requires a data processing agreement, and it is part of the application.",
+          text: "Apply for access to the tool you want to use, and we let you in. We run everything with EU-owned providers on EU soil. If real data goes in, we make a data processing agreement, and it is part of the application.",
         },
         {
           title: "Run it yourself",
-          text: "Clone the repository, run docker compose up, and point it at your own Ollama. One server, one Postgres, no keys to any cloud. The test is simple: pull the plug on the internet, and everything essential still works.",
+          text: "Clone the repository, run docker compose up, and point it at your own Ollama. One server, one Postgres, no keys to any cloud. That is enough to try it on a Friday afternoon, and it is the same setup that runs in a real production environment.",
         },
         {
           title: "Let us run it for you",
-          text: "If you want a tool hosted, we make an agreement on operations, backup, uptime and support at a price that covers the work. If you would rather run it yourself, we help you get started. Same code either way.",
+          text: "If you want a tool hosted for your organization, we make an agreement on operations, backup, uptime and support at a price that covers the work. If you would rather run it in your own data center or with your own provider, we help you get started. It is the same code wherever it runs.",
         },
       ],
       applyTo: "Apply for access to",
@@ -266,9 +266,9 @@ export const copy: Record<Locale, Copy> = {
       kicker: "About",
       title: "About Haij",
       paragraphs: [
-        "Haij is run by Vinther Consulting and was started by Martin Nymann Vinther, who has worked on large organizations' transformations for two decades and now, alongside his consulting, also shares the tools here.",
-        "No investors, no growth plan, no features behind a paywall. Just tools we need ourselves, and an opinion about what software for work ought to be like.",
-        "The code is public, and you are welcome to use it, read it, report what you find and send changes. If you want a tool hosted, or you have a tool of your own that lives up to the dogmas, write.",
+        "Haij is run by Vinther Consulting and was started by Martin Nymann Vinther. Martin has worked on large organizations' transformations for two decades, and the tools here grew out of that work: things we were missing, and would rather build properly than buy half-finished.",
+        "There are no investors and no growth plan. Haij is as much a workshop as a product: a place where we try things out, in the open, but with the same demands on security and data that a large organization would make. That is why there are dogmas and a checklist, and not just a roadmap.",
+        "The code is public, and you are welcome to use it, read it, report what you find and send changes. If you want a tool hosted, or you have one of your own that lives up to the dogmas, write to us.",
       ],
       contact: "Write to",
       security: "Report a security hole",
@@ -277,7 +277,7 @@ export const copy: Record<Locale, Copy> = {
     },
     footer: {
       license: "Open source under AGPL-3.0",
-      made: "Built in Denmark. Hosted in the EU. The coffee is our own.",
+      made: "Built in Denmark. Hosted in the EU. Used every day.",
       privacy: "Privacy",
       terms: "Demo terms",
       checklist: "Ready for the window",
