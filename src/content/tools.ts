@@ -193,6 +193,36 @@ export const tools: Tool[] = [
     },
   },
   {
+    id: "kadence",
+    host: "kadence.haij.dk",
+    status: "new",
+    url: "https://kadence.haij.dk",
+    applyUrl: "https://kadence.haij.dk/register",
+    image: {
+      name: "kadence-rulle",
+      alt: {
+        da: "Rulle i Kadence: en tur på hometrainer med 195 watt mod et mål på 187, kadence og puls i store tal, et landskab med rytteren på vejen og dagens pas som intervalbjælke i bunden",
+        en: "Rulle in Kadence: an indoor ride with 195 watts against a target of 187, cadence and heart rate in big numbers, a landscape with the rider on the road and the day's session as an interval bar along the bottom",
+      },
+    },
+    text: {
+      da: {
+        name: "Kadence",
+        tagline: "Unge ryttere i den rigtige kadence.",
+        description:
+          "Træningsplanlægning til unge landevejsryttere i U17, U19 og U23, deres trænere og deres forældre. Træneren lægger træningspas i kalenderen, på cyklen og i styrkerummet, og sæsonplanen starter fra Cykling Danmarks anbefalinger for årgangen, så træneren kan se, når en uge ligger uden for dem. Turen kommer ind som en FIT-fil, fra cykelcomputeren eller som en deling fra telefonen, og lander på det pas, den hørte til. Træningsbelastningen kan regnes ud uden wattmåler, og rytterens korte check-in viser træneren, hvem der har brug for en snak. Rytteren bestemmer, hvad forældrene kan se, og det håndhæver databasen. Til hometraineren er der Rulle: passet som en intervalbjælke, watt og puls i store tal og et landskab der ruller forbi. Hvis holdet slår det til, kan AI'en foreslå ugen, og træneren bestemmer. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
+        note: "Ny, oktober 2026. Version 0.9 er bygget, men har endnu ikke prøvet en rigtig vinter med et rigtigt hold, og Rulle er kun kørt mod en simuleret hometrainer. Koden er ikke offentlig endnu, og der er ingen åben demo. Der er helbredsdata om unge i det, så en databehandleraftale hører med til ansøgningen. Vil jeres hold være det første, så ansøg om adgang.",
+      },
+      en: {
+        name: "Kadence",
+        tagline: "Young riders at the right cadence.",
+        description:
+          "Training planning for young road cyclists in U17, U19 and U23, their coaches and their parents. The coach plans training sessions in the calendar, on the bike and in the gym, and the season plan starts from Cycling Denmark's recommendations for the age class, so the coach can see when a week falls outside them. The ride comes in as a FIT file, from the bike computer or as a share from the phone, and lands on the session it belonged to. Training load can be worked out without a power meter, and the rider's short check-in shows the coach who needs a talk. The rider decides what the parents can see, and the database enforces it. For the indoor trainer there is Rulle: the session as an interval bar, watts and heart rate in big numbers and a landscape rolling by. If the team switches it on, the AI can propose the week, and the coach decides. Runs at Mistral in the EU or on your own machine with Ollama.",
+        note: "New, October 2026. Version 0.9 is built, but it has not yet been through a real winter with a real team, and Rulle has only been run against a simulated trainer. The code is not public yet, and there is no open demo. There is health data about young people in it, so a data processing agreement is part of the application. If your team would like to be the first, apply for access.",
+      },
+    },
+  },
+  {
     id: "portefolje",
     host: "portefolje.haij.dk",
     status: "coming",

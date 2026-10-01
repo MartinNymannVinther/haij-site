@@ -12,6 +12,7 @@ tools live in their own repositories and on their own subdomains:
 | Tavle      | https://tavle.haij.dk          | https://github.com/MartinNymannVinther/tavle  |
 | Domino     | https://domino.haij.dk         | https://github.com/MartinNymannVinther/domino |
 | Makker     | https://makker.haij.dk         | https://github.com/MartinNymannVinther/makker |
+| Kadence    | https://kadence.haij.dk        | not yet public                                |
 | Portefølje | portefolje.haij.dk, on its way | not yet public                                |
 
 The site is static. `next build` renders every page to plain HTML at build

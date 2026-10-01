@@ -103,7 +103,7 @@ export const copy: Record<Locale, Copy> = {
       kicker: "Vinduet",
       title: "Værktøjerne",
       intro:
-        "Fem kan du prøve i dag, én er på vej. De er bygget til rigtigt arbejde, og de står alle på samme fundament: arbejdsrum der er adskilt i databasen, en auditlog, passkeys og eksport af alt. Det er derfor de kan starte som legeplads for ét team og holde, hvis en hel organisation flytter ind.",
+        "Seks kan du prøve i dag, én er på vej. De er bygget til rigtigt arbejde, og de står alle på samme fundament: arbejdsrum der er adskilt i databasen, en auditlog, passkeys og eksport af alt. Det er derfor de kan starte som legeplads for ét team og holde, hvis en hel organisation flytter ind.",
       status: { live: "I drift", new: "Ny", coming: "På vej" },
       open: "Åbn",
       apply: "Ansøg om adgang",
@@ -211,7 +211,7 @@ export const copy: Record<Locale, Copy> = {
       kicker: "The window",
       title: "The tools",
       intro:
-        "Five you can try today, one is on its way. They are built for real work, and they all stand on the same foundation: workspaces separated in the database, an audit log, passkeys and export of everything. That is why they can start as a playground for one team and hold up when a whole organization moves in.",
+        "Six you can try today, one is on its way. They are built for real work, and they all stand on the same foundation: workspaces separated in the database, an audit log, passkeys and export of everything. That is why they can start as a playground for one team and hold up when a whole organization moves in.",
       status: { live: "In production", new: "New", coming: "Coming" },
       open: "Open",
       apply: "Apply for access",
