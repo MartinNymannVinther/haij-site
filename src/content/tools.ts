@@ -232,21 +232,30 @@ export const tools: Tool[] = [
   {
     id: "facade",
     host: "facade.haij.dk",
-    status: "coming",
+    status: "new",
+    demoUrl: "https://facade.haij.dk/demo",
+    repoUrl: "https://github.com/MartinNymannVinther/facade",
+    image: {
+      name: "facade-side",
+      alt: {
+        da: "En side i Facade: planen for en sommerfest med tjekliste, beslutninger og undersider, og projekter, kanaler og folk i menuen til venstre",
+        en: "A page in Facade: the plan for a summer party with a checklist, decisions and subpages, and projects, channels and people in the menu on the left",
+      },
+    },
     text: {
       da: {
         name: "Facade",
         tagline: "Arbejdet bag facaden.",
         description:
-          "Et fælles sted til et lille hold, med projekter, sider I kan skrive på samtidig og samtalen lige ved siden af. Der er kanaler, tråde, en indbakke og søgning i det hele. Alt kan hentes ud som Markdown, og AI'en kan komme med forslag, men det er et menneske der sætter dem ind. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
-        note: "På vej",
+          "Et fælles sted til et lille hold, med projekter, sider I kan skrive på samtidig og samtalen lige ved siden af. Der er kanaler, tråde, en indbakke og søgning i det hele. Alt kan hentes ud som Markdown, og AI'en kan komme med forslag, men det er et menneske der sætter dem ind. Du kan også invitere en AI-agent ind som medlem under sit eget navn. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
+        note: "Ny i november 2026, version 1.1. Den kører allerede med et rigtigt projekt og flere brugere. Du kan prøve demoen uden konto eller køre den selv.",
       },
       en: {
         name: "Facade",
         tagline: "The work behind the facade.",
         description:
-          "One shared place for a small team, with projects, pages you can write on at the same time and the conversation right beside them. There are channels, threads, an inbox and search across it all. Everything can be exported as Markdown, and the AI can make suggestions, but a person puts them in. Runs at Mistral in the EU or on your own machine with Ollama.",
-        note: "Coming",
+          "One shared place for a small team, with projects, pages you can write on at the same time and the conversation right beside them. There are channels, threads, an inbox and search across it all. Everything can be exported as Markdown, and the AI can make suggestions, but a person puts them in. You can also invite an AI agent in as a member under its own name. Runs at Mistral in the EU or on your own machine with Ollama.",
+        note: "New in November 2026, version 1.1. It is already running with a real project and several users. You can try the demo without an account or run it yourself.",
       },
     },
   },

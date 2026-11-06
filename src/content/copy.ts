@@ -99,13 +99,13 @@ export const copy: Record<Locale, Copy> = {
       kicker: "Vinduet",
       title: "Værktøjerne",
       intro:
-        "Der er seks værktøjer indtil videre, og to mere er på vej. Fem af dem har en demo du kan prøve uden konto. De bygger alle på det samme fundament med adskilte arbejdsrum i databasen, auditlog, passkeys og eksport af alle data.",
+        "Der er syv værktøjer indtil videre, og et ottende er på vej. Seks af dem har en demo du kan prøve uden konto. De bygger alle på det samme fundament med adskilte arbejdsrum i databasen, auditlog, passkeys og eksport af alle data.",
       status: { live: "I brug", new: "Ny", coming: "På vej" },
       demo: "Prøv demoen",
       code: "Se koden",
       comingTitle: "På vej ind i vinduet",
       comingIntro:
-        "Koden findes, men de er ikke helt klar endnu. Portefølje har kørt rigtigt arbejde og skal ryddes op og have en demo og en README. Facade er bygget færdig, men har endnu ikke kørt rigtigt arbejde.",
+        "Koden findes og har kørt rigtigt arbejde, men den skal ryddes op og have en demo og en README før jeg viser den frem.",
     },
     dogmas: {
       kicker: "Syv dogmer",
@@ -201,13 +201,13 @@ export const copy: Record<Locale, Copy> = {
       kicker: "The window",
       title: "The tools",
       intro:
-        "There are six tools so far, and two more are on their way. Five of them have a demo you can try without an account. They all share the same foundation with separate workspaces in the database, an audit log, passkeys and export of all data.",
+        "There are seven tools so far, and an eighth is on its way. Six of them have a demo you can try without an account. They all share the same foundation with separate workspaces in the database, an audit log, passkeys and export of all data.",
       status: { live: "In use", new: "New", coming: "Coming" },
       demo: "Try the demo",
       code: "See the code",
       comingTitle: "On its way into the window",
       comingIntro:
-        "The code exists, but they are not quite ready yet. Portefølje has done real work and needs a clean-up, a demo and a README. Facade is built, but has not done real work yet.",
+        "The code exists and has done real work, but it needs a clean-up, a demo and a README before I show it.",
     },
     dogmas: {
       kicker: "Seven dogmas",

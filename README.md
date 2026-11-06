@@ -6,16 +6,16 @@ the EU, shown in one window together with the seven dogmas every tool signs up
 to. It is a hobby, not a hosting offer, and the words on the site should read
 that way. This repository is only the front page. The tools live in their own repositories and on their own subdomains:
 
-| Tool       | Where                              | Code                                           |
-| ---------- | ---------------------------------- | ---------------------------------------------- |
-| Forretning | https://app.haij.dk                | https://github.com/MartinNymannVinther/haij    |
-| Ajour      | https://ajour.haij.dk              | https://github.com/MartinNymannVinther/ajour   |
-| Tavle      | https://tavle.haij.dk              | https://github.com/MartinNymannVinther/tavle   |
-| Domino     | https://domino.haij.dk             | https://github.com/MartinNymannVinther/domino  |
-| Makker     | https://makker.haij.dk             | https://github.com/MartinNymannVinther/makker  |
-| Kadence    | https://kadence.haij.dk            | https://github.com/MartinNymannVinther/kadence |
-| Portefølje | portefolje.haij.dk, on its way     | not yet public                                 |
-| Facade     | https://facade.haij.dk, on its way | not yet public                                 |
+| Tool       | Where                          | Code                                           |
+| ---------- | ------------------------------ | ---------------------------------------------- |
+| Forretning | https://app.haij.dk            | https://github.com/MartinNymannVinther/haij    |
+| Ajour      | https://ajour.haij.dk          | https://github.com/MartinNymannVinther/ajour   |
+| Tavle      | https://tavle.haij.dk          | https://github.com/MartinNymannVinther/tavle   |
+| Domino     | https://domino.haij.dk         | https://github.com/MartinNymannVinther/domino  |
+| Makker     | https://makker.haij.dk         | https://github.com/MartinNymannVinther/makker  |
+| Kadence    | https://kadence.haij.dk        | https://github.com/MartinNymannVinther/kadence |
+| Portefølje | portefolje.haij.dk, on its way | not yet public                                 |
+| Facade     | https://facade.haij.dk         | https://github.com/MartinNymannVinther/facade  |
 
 The site is static. `next build` renders every page to plain HTML at build
 time and nginx serves the files. There is no server, no database, no
