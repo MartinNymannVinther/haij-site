@@ -37,19 +37,9 @@ function ToolRow({ tool, locale, flip }: { tool: Tool; locale: Locale; flip: boo
         <p className="text-muted-foreground mt-3 text-[0.9375rem] leading-7">{text.description}</p>
         <p className="mt-3 text-[0.9375rem] leading-7">{text.note}</p>
         <div className="mt-6 flex flex-wrap items-center gap-2">
-          {tool.url ? (
-            <a href={tool.url} className={button("primary")}>
-              {t.open}
-            </a>
-          ) : null}
           {tool.demoUrl ? (
-            <a href={tool.demoUrl} className={button("soft")}>
+            <a href={tool.demoUrl} className={button("primary")}>
               {t.demo}
-            </a>
-          ) : null}
-          {tool.applyUrl ? (
-            <a href={tool.applyUrl} className={button("outline")}>
-              {t.apply}
             </a>
           ) : null}
           {tool.repoUrl ? (

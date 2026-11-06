@@ -13,7 +13,7 @@ export type SelectedProject = {
 
 /**
  * The second shelf: open source built by others that lives up to the dogmas
- * and that we have used ourselves. We link, we do not host, and we promise
+ * and that I have used myself. I link, I do not host, and I promise
  * nothing on the project's behalf. The section is hidden while this is empty.
  */
 export const selected: SelectedProject[] = [];

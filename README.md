@@ -1,9 +1,10 @@
 # haij.dk
 
-The front page of Haij: a small collection of open source tools for work,
-for customers and hours, projects and teams, and AI that stays in the EU,
-shown in one window together with the seven dogmas every tool signs up to. This repository is only the front page. The
-tools live in their own repositories and on their own subdomains:
+The front page of Haij: Martin's side projects, a small collection of open
+source tools for customers and hours, projects and teams, and AI that stays in
+the EU, shown in one window together with the seven dogmas every tool signs up
+to. It is a hobby, not a hosting offer, and the words on the site should read
+that way. This repository is only the front page. The tools live in their own repositories and on their own subdomains:
 
 | Tool       | Where                          | Code                                          |
 | ---------- | ------------------------------ | --------------------------------------------- |
@@ -48,9 +49,8 @@ languages. Change the text there, not in the components.
 A tool's `status` is a promise to the reader: `live` runs real work today,
 `new` is live but fresh, `coming` exists and is on its way in. Live and new
 tools get a full row with a screenshot; coming tools get a compact card
-without one, on purpose. Links (`url`, `applyUrl`, `demoUrl`, `repoUrl`) are
-optional and appear only when the thing behind them is real. Leave them out
-until then.
+without one, on purpose. Links (`demoUrl`, `repoUrl`) are optional and
+appear only when the thing behind them is real. Leave them out until then.
 
 ### Screenshots
 

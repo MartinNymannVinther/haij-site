@@ -1,31 +1,33 @@
+import Link from "next/link";
 import { Section } from "@/components/section";
 import { copy } from "@/content/copy";
-import { anchors, site, type Locale } from "@/content/site";
-import { liveTools } from "@/content/tools";
+import { anchors, paths, site, type Locale } from "@/content/site";
 import { textLink } from "@/lib/ui";
 
-/** Three doors: use it with us, run it yourself, let us run it for you. */
+/** Three doors: build along, run it yourself, get inspired. */
 export function WaysSection({ locale }: { locale: Locale }) {
   const t = copy[locale].ways;
   const a = anchors[locale];
-  const applicable = liveTools.filter((tool) => tool.applyUrl);
   const link = `${textLink} text-[0.9375rem]`;
   const actions: React.ReactNode[] = [
-    <ul key="apply" className="space-y-1.5">
-      {applicable.map((tool) => (
-        <li key={tool.id}>
-          <a href={tool.applyUrl} className={link}>
-            {t.applyTo} {tool.text[locale].name} →
-          </a>
-        </li>
-      ))}
+    <ul key="join" className="space-y-1.5">
+      <li>
+        <a href={site.github} className={link} rel="noopener">
+          {t.code} →
+        </a>
+      </li>
+      <li>
+        <a href={`mailto:${site.contactEmail}`} className={link}>
+          {t.write} →
+        </a>
+      </li>
     </ul>,
     <a key="deploy" href={site.deployGuideUrl} className={link} rel="noopener">
       {t.deployGuide} →
     </a>,
-    <a key="write" href={`mailto:${site.contactEmail}`} className={link}>
-      {t.write} →
-    </a>,
+    <Link key="checklist" href={paths[locale].checklist} className={link}>
+      {t.checklist} →
+    </Link>,
   ];
   return (
     <Section id={a.ways} kicker={t.kicker} title={t.title} intro={t.intro}>
