@@ -99,7 +99,7 @@ export const copy: Record<Locale, Copy> = {
       kicker: "Vinduet",
       title: "Værktøjerne",
       intro:
-        "Der er seks værktøjer indtil videre, og et syvende er på vej. Fire af dem har en demo du kan prøve uden konto. De bygger alle på det samme fundament med adskilte arbejdsrum i databasen, auditlog, passkeys og eksport af alle data.",
+        "Der er seks værktøjer indtil videre, og et syvende er på vej. Fem af dem har en demo du kan prøve uden konto. De bygger alle på det samme fundament med adskilte arbejdsrum i databasen, auditlog, passkeys og eksport af alle data.",
       status: { live: "I brug", new: "Ny", coming: "På vej" },
       demo: "Prøv demoen",
       code: "Se koden",
@@ -201,7 +201,7 @@ export const copy: Record<Locale, Copy> = {
       kicker: "The window",
       title: "The tools",
       intro:
-        "There are six tools so far, and a seventh is on its way. Four of them have a demo you can try without an account. They all share the same foundation with separate workspaces in the database, an audit log, passkeys and export of all data.",
+        "There are six tools so far, and a seventh is on its way. Five of them have a demo you can try without an account. They all share the same foundation with separate workspaces in the database, an audit log, passkeys and export of all data.",
       status: { live: "In use", new: "New", coming: "Coming" },
       demo: "Try the demo",
       code: "See the code",

@@ -63,7 +63,7 @@ export const tools: Tool[] = [
     host: "ajour.haij.dk",
     status: "new",
     repoUrl: "https://github.com/MartinNymannVinther/ajour",
-    // demoUrl: "https://ajour.haij.dk/demo"  <- add when the demo is switched on in production.
+    demoUrl: "https://ajour.haij.dk/demo",
     image: {
       name: "ajour-projekt",
       alt: {
@@ -77,14 +77,14 @@ export const tools: Tool[] = [
         tagline: "En plan der følger med virkeligheden.",
         description:
           "Til små projekter med 2 til 10 deltagere. Du beskriver projektet med dine egne ord og får mål, milepæle og opgaver at starte fra. Hver uge skriver AI'en et udkast til status og foreslår ændringer til planen. Du godkender selv ændringerne, og de kan fortrydes.",
-        note: "I brug siden september 2026. Der er ingen demo endnu, men koden er åben. Sig til hvis du finder fejl.",
+        note: "I brug siden september 2026. Du kan prøve demoen uden konto eller køre den selv. Sig til hvis du finder fejl.",
       },
       en: {
         name: "Ajour",
         tagline: "A plan that keeps up with reality.",
         description:
           "For small projects with 2 to 10 people. You describe the project in your own words and get goals, milestones and tasks to start from. Every week the AI drafts a status and suggests changes to the plan. You approve the changes yourself, and they can be undone.",
-        note: "In use since September 2026. There is no demo yet, but the code is open. Let me know if you find bugs.",
+        note: "In use since September 2026. You can try the demo without an account or run it yourself. Let me know if you find bugs.",
       },
     },
   },
