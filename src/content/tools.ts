@@ -229,6 +229,27 @@ export const tools: Tool[] = [
       },
     },
   },
+  {
+    id: "facade",
+    host: "facade.haij.dk",
+    status: "coming",
+    text: {
+      da: {
+        name: "Facade",
+        tagline: "Arbejdet bag facaden.",
+        description:
+          "Et fælles sted til et lille hold, med projekter, sider I kan skrive på samtidig og samtalen lige ved siden af. Der er kanaler, tråde, en indbakke og søgning i det hele. Alt kan hentes ud som Markdown, og AI'en kan komme med forslag, men det er et menneske der sætter dem ind. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
+        note: "På vej",
+      },
+      en: {
+        name: "Facade",
+        tagline: "The work behind the facade.",
+        description:
+          "One shared place for a small team, with projects, pages you can write on at the same time and the conversation right beside them. There are channels, threads, an inbox and search across it all. Everything can be exported as Markdown, and the AI can make suggestions, but a person puts them in. Runs at Mistral in the EU or on your own machine with Ollama.",
+        note: "Coming",
+      },
+    },
+  },
 ];
 
 export const liveTools = tools.filter((tool) => tool.status !== "coming");
