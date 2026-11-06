@@ -17,7 +17,7 @@ export type ChecklistPage = {
 export const checklist: Record<Locale, ChecklistPage> = {
   da: {
     title: "Klar til vinduet",
-    lead: "Før et Haij-værktøj kommer i vinduet, skal det kunne sætte kryds ved alle ti punkter. Listen er dogmerne omsat til noget man kan tjekke en fredag eftermiddag. For værktøjer fra andre på hylden Udvalgte gælder dogmerne, ikke hele listen, for de kører ikke her.",
+    lead: "Før et Haij-værktøj kommer i vinduet, skal det opfylde alle ti punkter. Punkterne er dogmerne gjort konkrete. Værktøjer fra andre på hylden Udvalgte skal kun følge dogmerne, fordi de ikke kører her.",
     items: [
       "Kører i dagligt, rigtigt arbejde hos mig selv eller hos nogen jeg sidder tæt på.",
       "Offentligt repo under AGPL-3.0 med README, deploy-vejledning, SECURITY.md og en liste over underdatabehandlere.",
@@ -26,20 +26,20 @@ export const checklist: Record<Locale, ChecklistPage> = {
       "Login, adskillelse af organisationer i databasen med en test der beviser det, og auditlog. Gælder alt der kører med rigtige data.",
       "Haij-designsystemet, dansk brugerflade og engelsk klar.",
       "En demo med opdigtede data der nulstilles hver nat.",
-      "Kode og historik uden kundedata og kundenavne. Jeg lærte det på den hårde måde, og det tjekkes før hvert repo åbnes.",
-      "Tests på det der betyder noget: adskillelse, domænelogik og tal.",
+      "Kode og historik uden kundedata og kundenavne. Det tjekkes før hvert repo åbnes.",
+      "Tests af adskillelse, domænelogik og beregninger.",
       "Privatlivspolitik, databehandleraftale og aftaler med underdatabehandlerne, klar til den dag der kommer rigtige data i.",
     ],
     outroTitle: "Har du et værktøj der hører hjemme her?",
     outro: [
-      "Vinduet er ikke forbeholdt det jeg selv har bygget. Deler du et værktøj der lever op til dogmerne, går det gennem samme tjekliste som mine egne, og det skal have en navngiven vedligeholder. Et værktøj uden ejer i vinduet er mit problem den dag det går i stykker.",
-      "Kender du et stærkt open source-projekt fra andre, som lever op til dogmerne og har et rigtigt brugssted, hører det hjemme på hylden Udvalgte. Der linker jeg til projektets eget site og kode og skriver tre linjer om hvorfor det står der.",
+      "Vinduet er ikke kun til det jeg selv har bygget. Har du et værktøj der følger dogmerne, skal det gennem den samme tjekliste som mine egne, og det skal have en navngiven vedligeholder.",
+      "Kender du et open source-projekt fra andre som følger dogmerne og bruges i virkeligheden, kan det komme på hylden Udvalgte. Så linker jeg til projektets site og kode og skriver kort hvorfor det står der.",
     ],
     contact: "Skriv til",
   },
   en: {
     title: "Ready for the window",
-    lead: "Before a Haij tool goes in the window, it must be able to tick all ten points. The list is the dogmas turned into something you can check on a Friday afternoon. For tools by others on the Selected shelf, the dogmas apply, not the whole list, because they do not run here.",
+    lead: "Before a Haij tool goes in the window, it has to meet all ten points. The points are the dogmas made concrete. Tools by others on the Selected shelf only have to follow the dogmas, because they do not run here.",
     items: [
       "Runs in daily, real work for me or for someone I sit close to.",
       "Public repository under AGPL-3.0 with a README, a deployment guide, SECURITY.md and a list of subprocessors.",
@@ -48,14 +48,14 @@ export const checklist: Record<Locale, ChecklistPage> = {
       "Login, separation of organizations in the database with a test that proves it, and an audit log. Applies to everything running with real data.",
       "The Haij design system, a Danish interface and English ready.",
       "A demo on made-up data that resets every night.",
-      "Code and history without customer data and customer names. I learned that the hard way, and it is checked before every repository is opened.",
-      "Tests on what matters: separation, domain logic and numbers.",
+      "Code and history without customer data and customer names. This is checked before every repository is opened.",
+      "Tests of separation, domain logic and calculations.",
       "A privacy policy, a data processing agreement and agreements with the subprocessors, ready for the day real data goes in.",
     ],
     outroTitle: "Have a tool that belongs here?",
     outro: [
-      "The window is not reserved for what I built myself. If you share a tool that lives up to the dogmas, it goes through the same checklist as my own, and it needs a named maintainer. A tool without an owner in the window is my problem the day it breaks.",
-      "If you know a strong open source project by others that lives up to the dogmas and has a real place of use, it belongs on the Selected shelf. There I link to the project's own site and code and write three lines about why it is there.",
+      "The window is not only for what I have built. If you have a tool that follows the dogmas, it goes through the same checklist as my own, and it needs a named maintainer.",
+      "If you know an open source project by others that follows the dogmas and is used for real, it can go on the Selected shelf. I then link to the project's site and code and write briefly why it is there.",
     ],
     contact: "Write to",
   },

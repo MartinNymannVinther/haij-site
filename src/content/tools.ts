@@ -46,15 +46,15 @@ export const tools: Tool[] = [
         name: "Forretning",
         tagline: "Kunder, timer og fakturaer på ét sted.",
         description:
-          "Til selvstændige og små virksomheder der vil have styr på kunder, timer og fakturaer uden at købe et stort system. Kunder slås op i CVR, fakturaerne overholder de danske krav, og økonomi og små projekter ligger ved siden af. Der er også et videncenter og en MCP-server, så din AI-assistent kan læse dine tal og skrive udkast. Sende noget må den ikke.",
-        note: "Jeg bruger den selv hver dag og har gjort det siden september 2026. Der er ingen demo endnu, så koden er stedet at kigge.",
+          "Til selvstændige og små virksomheder der vil have styr på kunder, timer og fakturaer uden at købe et stort system. Kunder slås op i CVR, og fakturaerne overholder de danske krav. Der er også økonomi, små projekter, et videncenter og en MCP-server, så din AI-assistent kan læse dine tal og skrive udkast, men ikke sende noget.",
+        note: "Jeg har brugt den hver dag siden september 2026. Der er ingen demo endnu, men koden er åben.",
       },
       en: {
         name: "Forretning",
         tagline: "Customers, hours and invoices in one place.",
         description:
-          "For solo consultants and small companies that want to keep track of customers, hours and invoices without buying a big system. Customers are looked up in the Danish company register, invoices meet the Danish requirements, and finances and small projects sit alongside. There is also a knowledge center and an MCP server, so your AI assistant can read your numbers and write drafts. It is not allowed to send anything.",
-        note: "I use it myself every day and have since September 2026. There is no demo yet, so the code is the place to look.",
+          "For solo consultants and small companies that want to keep track of customers, hours and invoices without buying a big system. Customers are looked up in the Danish company register, and invoices meet the Danish requirements. There are also finances, small projects, a knowledge center and an MCP server, so your AI assistant can read your numbers and write drafts, but not send anything.",
+        note: "I have used it every day since September 2026. There is no demo yet, but the code is open.",
       },
     },
   },
@@ -76,15 +76,15 @@ export const tools: Tool[] = [
         name: "Ajour",
         tagline: "En plan der følger med virkeligheden.",
         description:
-          "Til små projekter med 2 til 10 deltagere. Beskriv projektet med dine egne ord og få mål, milepæle og opgaver at starte fra. Hver uge skriver AI'en et udkast til status og foreslår ændringer, når virkeligheden har flyttet sig. Du siger ja eller nej, og alt kan fortrydes.",
-        note: "I brug siden september 2026. Stadig ung, så sig til hvis du støder på noget der driller. Der er ingen demo endnu, så koden er stedet at kigge.",
+          "Til små projekter med 2 til 10 deltagere. Du beskriver projektet med dine egne ord og får mål, milepæle og opgaver at starte fra. Hver uge skriver AI'en et udkast til status og foreslår ændringer til planen. Du godkender selv ændringerne, og de kan fortrydes.",
+        note: "I brug siden september 2026. Der er ingen demo endnu, men koden er åben. Sig til hvis du finder fejl.",
       },
       en: {
         name: "Ajour",
         tagline: "A plan that keeps up with reality.",
         description:
-          "For small projects with 2 to 10 people. Describe the project in your own words and get goals, milestones and tasks to start from. Every week the AI drafts the status and suggests changes when reality has moved. You say yes or no, and everything can be undone.",
-        note: "In use since September 2026. Still young, so tell me if something gets in your way. There is no demo yet, so the code is the place to look.",
+          "For small projects with 2 to 10 people. You describe the project in your own words and get goals, milestones and tasks to start from. Every week the AI drafts a status and suggests changes to the plan. You approve the changes yourself, and they can be undone.",
+        note: "In use since September 2026. There is no demo yet, but the code is open. Let me know if you find bugs.",
       },
     },
   },
@@ -106,15 +106,15 @@ export const tools: Tool[] = [
         name: "Tavle",
         tagline: "Kanban og Scrum, uden at det bliver et system.",
         description:
-          "Et board til teams på to til femten: produktteamet, driftsteamet, foreningens app-projekt. Kør Kanban med WIP-grænser der advarer men aldrig forbyder, eller Scrum med en backlog og ét sprint ad gangen. Burndown, velocity, gennemløb og cyklustid regnes ud fra det der faktisk skete med kortene, ikke fra et skøn. AI'en kan skrive et kort færdigt, foreslå en opdeling, fortælle sprintets historie og lave et første udkast til backlog og roadmap ud fra jeres egen tekst. Du retter og siger ja.",
-        note: "Ny, september 2026. Version 0.11 er bygget færdig, og nu mangler den et rigtigt team på et rigtigt board. Prøv demoen uden konto, eller kør den selv.",
+          "Et board til teams på to til femten. Du kan køre Kanban med WIP-grænser der advarer uden at blokere, eller Scrum med en backlog og ét sprint ad gangen. Burndown, velocity, gennemløb og cyklustid beregnes ud fra det der faktisk er sket med kortene. AI'en kan skrive kort færdige, foreslå en opdeling, opsummere sprintet og lave et første udkast til backlog og roadmap ud fra jeres egen tekst.",
+        note: "Ny i september 2026, version 0.11. Den er bygget færdig, men er endnu ikke brugt af et rigtigt team. Du kan prøve demoen uden konto eller køre den selv.",
       },
       en: {
         name: "Tavle",
         tagline: "Kanban and Scrum, without it becoming a system.",
         description:
-          "A board for teams of two to fifteen: the product team, the ops team, the association's app project. Run Kanban with WIP limits that warn but never forbid, or Scrum with a backlog and one sprint at a time. Burndown, velocity, throughput and cycle time are computed from what actually happened to the cards, not from an estimate. The AI can finish writing a card, suggest a split, tell the sprint's story and make a first draft of backlog and roadmap from your own text. You edit and say yes.",
-        note: "New, September 2026. Version 0.11 is built, and now it needs a real team on a real board. Try the demo without an account, or run it yourself.",
+          "A board for teams of two to fifteen. You can run Kanban with WIP limits that warn without blocking, or Scrum with a backlog and one sprint at a time. Burndown, velocity, throughput and cycle time are calculated from what actually happened to the cards. The AI can finish writing cards, suggest a split, summarize the sprint and make a first draft of backlog and roadmap from your own text.",
+        note: "New in September 2026, version 0.11. It is built, but no real team has used it yet. You can try the demo without an account or run it yourself.",
       },
     },
   },
@@ -136,15 +136,15 @@ export const tools: Tool[] = [
         name: "Domino",
         tagline: "Stil brikkerne op. Skub til den første.",
         description:
-          'En visuel flow-bygger til AI-arbejdsgange, for folk der ikke programmerer. Du fortæller hvad du vil have, fx "læs de to hundrede ansøgninger, træk fem punkter ud af hver og sæt dem i en tabel", og modellen stiller brikkerne op. Du retter på lærredet eller i samtalen, tester på ét eksempel og kører så hele bunken og ser det ske brik for brik. Et flow er én fil, som du kan eksportere, importere og lægge under versionsstyring. Kører hos Mistral i EU eller på din egen maskine med Ollama.',
-        note: "Ny, september 2026. Version 0.9 er bygget færdig, og nu mangler den første rigtige bunke. Prøv demoen uden konto, eller kør den selv.",
+          'En visuel flow-bygger til AI-arbejdsgange, for folk der ikke programmerer. Du fortæller hvad du vil have, fx "læs de to hundrede ansøgninger, træk fem punkter ud af hver og sæt dem i en tabel", og modellen stiller brikkerne op. Du retter på lærredet eller i samtalen, tester på ét eksempel og kører så det hele. Et flow er én fil som du kan eksportere, importere og lægge under versionsstyring. Kører hos Mistral i EU eller på din egen maskine med Ollama.',
+        note: "Ny i september 2026, version 0.9. Den er bygget færdig, men er endnu ikke brugt på en rigtig opgave. Du kan prøve demoen uden konto eller køre den selv.",
       },
       en: {
         name: "Domino",
         tagline: "Line the bricks up. Push the first one.",
         description:
-          'A visual flow builder for AI workflows, for people who do not program. You say what you want, such as "read the two hundred applications, pull five points out of each and put them in a table", and the model lines up the bricks. You adjust it on the canvas or in the conversation, test on one example, then run the whole pile and watch it happen brick by brick. A flow is one file you can export, import and keep under version control. Runs at Mistral in the EU or on your own machine with Ollama.',
-        note: "New, September 2026. Version 0.9 is built, and now it needs the first real pile. Try the demo without an account, or run it yourself.",
+          'A visual flow builder for AI workflows, for people who do not program. You say what you want, such as "read the two hundred applications, pull five points out of each and put them in a table", and the model lines up the bricks. You adjust it on the canvas or in the conversation, test on one example and then run all of it. A flow is one file you can export, import and keep under version control. Runs at Mistral in the EU or on your own machine with Ollama.',
+        note: "New in September 2026, version 0.9. It is built, but has not been used on a real task yet. You can try the demo without an account or run it yourself.",
       },
     },
   },
@@ -166,15 +166,15 @@ export const tools: Tool[] = [
         name: "Makker",
         tagline: "En at tænke højt med.",
         description:
-          "En chat oven på sprogmodeller der bliver i EU eller på din egen server. Skriv som du taler, vedhæft et referat eller et udkast, vælg en rolle, fx sparringspartner, djævlens advokat eller sprogvasker, og læs svaret mens det skrives. Bed om et notat eller et oplæg og hent det som Word eller PowerPoint. Et filter i browseren stopper personoplysninger før de forlader maskinen, og hver samtale er din egen: ingen andre i arbejdsrummet kan se den, heller ikke chefen. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
-        note: "Ny, september 2026. Version 0.9 er bygget færdig, og nu mangler den første rigtige uge med tænken højt. Prøv demoen uden konto, eller kør den selv.",
+          "En chat oven på sprogmodeller der bliver i EU eller på din egen server. Du kan vedhæfte et referat eller et udkast og vælge en rolle, fx sparringspartner, djævlens advokat eller sprogvasker. Beder du om et notat eller et oplæg, kan du hente det som Word eller PowerPoint. Et filter i browseren stopper personoplysninger før de forlader maskinen, og andre i arbejdsrummet kan ikke se dine samtaler. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
+        note: "Ny i september 2026, version 0.9. Den er bygget færdig, men er endnu ikke brugt i rigtigt arbejde. Du kan prøve demoen uden konto eller køre den selv.",
       },
       en: {
         name: "Makker",
         tagline: "Someone to think out loud with.",
         description:
-          "A chat on top of language models that stay in the EU or on your own server. Write the way you talk, attach minutes or a draft, pick a role such as sparring partner, devil's advocate or plain-language editor, and read the answer as it is written. Ask for a memo or a deck and download it as Word or PowerPoint. A filter in the browser stops personal data before it leaves the machine, and every conversation is your own: nobody else in the workspace can see it, not the boss either. Runs at Mistral in the EU or on your own machine with Ollama.",
-        note: "New, September 2026. Version 0.9 is built, and now it needs the first real week of thinking out loud. Try the demo without an account, or run it yourself.",
+          "A chat on top of language models that stay in the EU or on your own server. You can attach minutes or a draft and pick a role such as sparring partner, devil's advocate or plain-language editor. If you ask for a memo or a deck, you can download it as Word or PowerPoint. A filter in the browser stops personal data before it leaves the machine, and others in the workspace cannot see your conversations. Runs at Mistral in the EU or on your own machine with Ollama.",
+        note: "New in September 2026, version 0.9. It is built, but has not been used in real work yet. You can try the demo without an account or run it yourself.",
       },
     },
   },
@@ -183,6 +183,7 @@ export const tools: Tool[] = [
     host: "kadence.haij.dk",
     status: "new",
     demoUrl: "https://kadence.haij.dk/demo",
+    repoUrl: "https://github.com/MartinNymannVinther/kadence",
     image: {
       name: "kadence-rulle",
       alt: {
@@ -195,15 +196,15 @@ export const tools: Tool[] = [
         name: "Kadence",
         tagline: "Unge ryttere i den rigtige kadence.",
         description:
-          "Træningsplanlægning til unge landevejsryttere i U17, U19 og U23, deres trænere og deres forældre. Træneren lægger træningspas i kalenderen, på cyklen og i styrkerummet, og sæsonplanen starter fra Cykling Danmarks anbefalinger for årgangen, så træneren kan se, når en uge ligger uden for dem. Turen kommer ind som en FIT-fil, fra cykelcomputeren eller som en deling fra telefonen, og lander på det pas, den hørte til. Træningsbelastningen kan regnes ud uden wattmåler, og rytterens korte check-in viser træneren, hvem der har brug for en snak. Rytteren bestemmer, hvad forældrene kan se, og det håndhæver databasen. Til hometraineren er der Rulle: passet som en intervalbjælke, watt og puls i store tal og et landskab der ruller forbi. Hvis holdet slår det til, kan AI'en foreslå ugen, og træneren bestemmer. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
-        note: "Ny, oktober 2026. Version 0.9 er bygget, men har endnu ikke prøvet en rigtig vinter med et rigtigt hold, og Rulle er kun kørt mod en simuleret hometrainer. Koden er ikke offentlig endnu. Prøv demoen uden konto.",
+          "Træningsplanlægning til unge landevejsryttere i U17, U19 og U23, deres trænere og deres forældre. Træneren lægger træningspas i kalenderen, på cyklen og i styrkerummet, og sæsonplanen starter fra Cykling Danmarks anbefalinger for årgangen. Rytteren kan koble sin Garmin direkte på, når rytteren selv har sagt ja. Så kommer de planlagte cykelpas selv over på Garminen, og turene kommer selv tilbage og lander på det pas de hørte til. En tur kan også komme ind som en FIT-fil eller en deling fra telefonen. Træningsbelastningen kan regnes ud uden wattmåler, og rytterens korte check-in viser træneren hvem der har brug for en snak. Rytteren bestemmer hvad forældrene kan se. Til hometraineren er der Rulle, som forbinder sig over Bluetooth og holder watten i hver blok. Du kører på rigtige ruter som Himmelbjerget og bakkerne ved Vejle eller på din egen GPX, og turen lander på passet bagefter. Hvis holdet slår det til, kan AI'en foreslå ugen, og træneren bestemmer. Kører hos Mistral i EU eller på din egen maskine med Ollama.",
+        note: "Ny i oktober 2026, version 0.9. Garmin-integrationen og Rulle virker, og Rulle er kørt på en rigtig hometrainer. Kadence har endnu ikke været igennem en vinter med et rigtigt hold. Du kan prøve demoen uden konto eller køre den selv.",
       },
       en: {
         name: "Kadence",
         tagline: "Young riders at the right cadence.",
         description:
-          "Training planning for young road cyclists in U17, U19 and U23, their coaches and their parents. The coach plans training sessions in the calendar, on the bike and in the gym, and the season plan starts from Cycling Denmark's recommendations for the age class, so the coach can see when a week falls outside them. The ride comes in as a FIT file, from the bike computer or as a share from the phone, and lands on the session it belonged to. Training load can be worked out without a power meter, and the rider's short check-in shows the coach who needs a talk. The rider decides what the parents can see, and the database enforces it. For the indoor trainer there is Rulle: the session as an interval bar, watts and heart rate in big numbers and a landscape rolling by. If the team switches it on, the AI can propose the week, and the coach decides. Runs at Mistral in the EU or on your own machine with Ollama.",
-        note: "New, October 2026. Version 0.9 is built, but it has not yet been through a real winter with a real team, and Rulle has only been run against a simulated trainer. The code is not public yet. Try the demo without an account.",
+          "Training planning for young road cyclists in U17, U19 and U23, their coaches and their parents. The coach plans training sessions in the calendar, on the bike and in the gym, and the season plan starts from Cycling Denmark's recommendations for the age class. Riders can connect their Garmin directly once they have said yes themselves. Planned bike sessions then go to the Garmin by themselves, and rides come back by themselves and land on the session they belonged to. A ride can also come in as a FIT file or a share from the phone. Training load can be worked out without a power meter, and the rider's short check-in shows the coach who needs a talk. The rider decides what the parents can see. For the indoor trainer there is Rulle, which connects over Bluetooth and holds the watts in each block. You ride real routes such as Himmelbjerget and the hills around Vejle, or your own GPX, and the ride lands on the session afterwards. If the team switches it on, the AI can propose the week, and the coach decides. Runs at Mistral in the EU or on your own machine with Ollama.",
+        note: "New in October 2026, version 0.9. The Garmin integration and Rulle work, and Rulle has been ridden on a real trainer. Kadence has not been through a winter with a real team yet. You can try the demo without an account or run it yourself.",
       },
     },
   },

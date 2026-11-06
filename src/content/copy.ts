@@ -20,7 +20,6 @@ export type Copy = {
     subtitle: string;
     ctaPrimary: string;
     ctaSecondary: string;
-    honesty: string;
   };
   tools: {
     kicker: string;
@@ -77,7 +76,7 @@ export const copy: Record<Locale, Copy> = {
     meta: {
       title: "Haij · Hobbyprojekter i open source",
       description:
-        "Haij er mine hobbyprojekter: en lille samling open source-værktøjer, bygget efter syv dogmer og til en høj standard. Koden er åben. Vær med, eller lad dig inspirere.",
+        "Mine hobbyprojekter. Open source-værktøjer jeg bygger i fritiden efter nogle dogmer og i høj standard. Du er velkommen til at være med eller bare lade dig inspirere.",
     },
     nav: {
       tools: "Værktøjer",
@@ -92,50 +91,46 @@ export const copy: Record<Locale, Copy> = {
       title: "Hobbyprojekter med dogmer.",
       titleAccent: "Kig bare ind.",
       subtitle:
-        "Haij er mine hobbyprojekter: en lille samling open source-værktøjer til kunder og timer, projekter og teams, og AI der bliver i EU eller på din egen maskine. Jeg bygger dem i fritiden, men efter syv dogmer og til en standard jeg ikke slækker på. Læs koden, tag det du kan bruge, eller vær med.",
+        "Det her er mine hobbyprojekter. Jeg bygger dem i fritiden og prøver at holde mig til nogle dogmer og en høj standard. Al koden er åben, så du er velkommen til at være med eller bare lade dig inspirere.",
       ctaPrimary: "Se værktøjerne",
       ctaSecondary: "Læs dogmerne",
-      honesty:
-        "Jeg skriver hvad der er i brug, hvad der er nyt, og hvad der stadig kun er en god idé.",
     },
     tools: {
       kicker: "Vinduet",
       title: "Værktøjerne",
       intro:
-        "Seks er bygget, fire har en demo du kan prøve uden konto, og én er på vej. De står alle på samme fundament: arbejdsrum der er adskilt i databasen, en auditlog, passkeys og eksport af alt. Det er hobby, men de er bygget som om en hel organisation skulle flytte ind.",
+        "Der er seks værktøjer indtil videre, og et syvende er på vej. Fire af dem har en demo du kan prøve uden konto. De bygger alle på det samme fundament med adskilte arbejdsrum i databasen, auditlog, passkeys og eksport af alle data.",
       status: { live: "I brug", new: "Ny", coming: "På vej" },
       demo: "Prøv demoen",
       code: "Se koden",
       comingTitle: "På vej ind i vinduet",
       comingIntro:
-        "Koden findes, og den har kørt rigtigt arbejde. Den mangler det sidste før jeg viser den frem: en rensning, en demo og en README man kan følge. Jeg skriver her når den flytter sig.",
+        "Koden findes og har kørt rigtigt arbejde, men den skal ryddes op og have en demo og en README før jeg viser den frem.",
     },
     dogmas: {
       kicker: "Syv dogmer",
-      title: "Det jeg skriver under på.",
+      title: "Reglerne jeg bygger efter.",
       intro:
-        "De regler hvert værktøj i vinduet følger, uanset hvem der har bygget det. Det er hobby, men kravene er ikke. De er skrevet så man kan tjekke dem, ikke så de lyder godt.",
-      aside:
-        "Syv er mange. Jeg prøvede at slå nogle sammen, men hver gang mistede jeg noget man kan efterprøve.",
+        "Alle værktøjer i vinduet skal følge de her regler, også dem andre har bygget. De er skrevet så konkret at man kan tjekke dem.",
+      aside: "Jeg har prøvet at slå nogle af dem sammen, men så blev de sværere at tjekke.",
       checklist: "Se tjeklisten før vinduet",
     },
     ways: {
       kicker: "Vær med",
-      title: "Tre måder at være med.",
-      intro:
-        "Koden er hele koden, og den er gratis. Jeg tilbyder ikke hosting, og der er ikke noget at købe. Det her er en invitation: byg med, kør det selv, eller tag bare idéerne med hjem.",
+      title: "Sådan kan du være med",
+      intro: "Al koden er gratis. Jeg tilbyder ikke hosting, og der er ikke noget at købe.",
       items: [
         {
           title: "Byg med",
-          text: "Meld en fejl, kom med en idé, eller send en ændring. Har du selv et værktøj der lever op til dogmerne, må det gerne stå i vinduet. Det behøver ikke være stort, og du behøver ikke spørge først.",
+          text: "Meld en fejl, kom med en idé eller send en ændring på GitHub. Har du selv et værktøj der følger dogmerne, må det også gerne stå her.",
         },
         {
           title: "Kør det selv",
-          text: "Klon repoet, kør docker compose up, og peg på din egen Ollama. Én server, én Postgres, ingen nøgler til en sky. Det er nok til at prøve det af en fredag eftermiddag, og det er den samme opsætning der kører i et rigtigt driftsmiljø. Driften er din, og det er dataene også.",
+          text: "Klon repoet, kør docker compose up og peg på din egen Ollama. Det kræver en server og en Postgres, og du skal ikke bruge nøgler til nogen sky. Du står selv for driften.",
         },
         {
           title: "Lad dig inspirere",
-          text: "Du behøver ikke bruge en linje af det. Læs dogmerne og tjeklisten, kig i koden, og tag det med du kan bruge: en regel, et mønster, en måde at tænke på. Bygger du noget selv efter samme krav, vil jeg gerne høre om det.",
+          text: "Du behøver ikke bruge værktøjerne. Læs dogmerne og tjeklisten, kig i koden og tag det med du kan bruge. Bygger du selv noget efter samme krav, vil jeg gerne høre om det.",
         },
       ],
       code: "Koden på GitHub",
@@ -146,8 +141,7 @@ export const copy: Record<Locale, Copy> = {
     selected: {
       kicker: "Hylden",
       title: "Udvalgte",
-      intro:
-        "Open source fra andre, som lever op til dogmerne, og som jeg selv har brugt. Jeg peger bare på dem.",
+      intro: "Open source fra andre, som følger dogmerne, og som jeg selv har brugt.",
       site: "Besøg",
       code: "Kode",
       license: "Licens",
@@ -156,9 +150,9 @@ export const copy: Record<Locale, Copy> = {
       kicker: "Om",
       title: "Om Haij",
       paragraphs: [
-        "Haij er mit hobbyprojekt. Jeg hedder Martin Nymann Vinther og har arbejdet med store organisationers transformationer i to årtier. Værktøjerne her er vokset ud af det arbejde: ting jeg manglede, og som jeg hellere ville bygge ordentligt end købe halvfærdigt.",
-        "Der er ingen investorer og ingen vækstplan. Haij er et værksted: et sted hvor jeg prøver ting af, i det åbne, men med de samme krav til sikkerhed og data som en stor organisation ville stille. Hobby er ingen undskyldning for at sjuske, og det er derfor der er dogmer og en tjekliste, og ikke bare en roadmap.",
-        "Værktøjerne kører på mine egne servere, fordi jeg selv bruger dem og demoerne skal stå et sted, ikke fordi jeg tilbyder hosting. Koden er offentlig, og du er velkommen til at bruge den, læse den, melde fejl og sende ændringer. Har du selv et værktøj der lever op til dogmerne, eller bare en god idé, så skriv til mig.",
+        "Jeg hedder Martin Nymann Vinther, og Haij er mit hobbyprojekt. Jeg har arbejdet med transformationer i store organisationer i tyve år, og flere af værktøjerne startede som noget jeg selv manglede i det arbejde.",
+        "Der er ingen investorer eller vækstplan. Jeg bygger det her fordi jeg har lyst, og jeg prøver at holde de samme krav til sikkerhed og data som en stor organisation ville stille. Derfor er der dogmer og en tjekliste.",
+        "Værktøjerne kører på mine egne servere fordi jeg selv bruger dem, og fordi demoerne skal ligge et sted. Jeg tilbyder ikke hosting. Koden er offentlig, så du må gerne bruge den, melde fejl og sende ændringer. Har du en idé, eller har du selv et værktøj der følger dogmerne, så skriv endelig.",
       ],
       contact: "Skriv til",
       security: "Meld et sikkerhedshul",
@@ -167,7 +161,7 @@ export const copy: Record<Locale, Copy> = {
     },
     footer: {
       license: "Open source under AGPL-3.0",
-      made: "Bygget i Danmark, i fritiden, efter dogmer.",
+      made: "Bygget i fritiden i Danmark.",
       privacy: "Privatliv",
       terms: "Vilkår for demoer",
       checklist: "Klar til vinduet",
@@ -176,7 +170,7 @@ export const copy: Record<Locale, Copy> = {
     },
     notFound: {
       title: "Den side findes ikke.",
-      text: "Måske er den flyttet, måske er den stadig kun en god idé.",
+      text: "Den kan være flyttet eller slettet.",
       back: "Til forsiden",
     },
   },
@@ -184,7 +178,7 @@ export const copy: Record<Locale, Copy> = {
     meta: {
       title: "Haij · Open source side projects",
       description:
-        "Haij is my side projects: a small collection of open source tools, built to seven dogmas and to a high standard. The code is open. Join in, or just take the ideas with you.",
+        "My side projects. Open source tools I build in my spare time, following a few dogmas and aiming for a high standard. You are welcome to join in or just get inspired.",
     },
     nav: {
       tools: "Tools",
@@ -199,49 +193,46 @@ export const copy: Record<Locale, Copy> = {
       title: "Side projects with dogmas.",
       titleAccent: "Come on in.",
       subtitle:
-        "Haij is my side projects: a small collection of open source tools for customers and hours, projects and teams, and AI that stays in the EU or on your own machine. I build them in my spare time, but to seven dogmas and to a standard I do not lower. Read the code, take what you can use, or join in.",
+        "These are my side projects. I build them in my spare time and try to stick to a few dogmas and a high standard. All the code is open, so you are welcome to join in or just get inspired.",
       ctaPrimary: "See the tools",
       ctaSecondary: "Read the dogmas",
-      honesty: "I write down what is in use, what is new, and what is still only a good idea.",
     },
     tools: {
       kicker: "The window",
       title: "The tools",
       intro:
-        "Six are built, four have a demo you can try without an account, and one is on its way. They all stand on the same foundation: workspaces separated in the database, an audit log, passkeys and export of everything. It is a hobby, but they are built as if a whole organization were moving in.",
+        "There are six tools so far, and a seventh is on its way. Four of them have a demo you can try without an account. They all share the same foundation with separate workspaces in the database, an audit log, passkeys and export of all data.",
       status: { live: "In use", new: "New", coming: "Coming" },
       demo: "Try the demo",
       code: "See the code",
       comingTitle: "On its way into the window",
       comingIntro:
-        "The code exists, and it has done real work. It is missing the last bit before I show it: a clean-up, a demo and a README you can follow. I write here when it moves.",
+        "The code exists and has done real work, but it needs a clean-up, a demo and a README before I show it.",
     },
     dogmas: {
       kicker: "Seven dogmas",
-      title: "What I sign up to.",
+      title: "The rules I build by.",
       intro:
-        "The rules every tool in the window follows, no matter who built it. It is a hobby, but the demands are not. They are written so you can check them, not so they sound good. The Danish wording is the original.",
-      aside:
-        "Seven is a lot. I tried merging some, but every time I lost something that can be checked.",
+        "Every tool in the window has to follow these rules, including the ones others have built. They are written concretely enough to be checked. The Danish wording is the original.",
+      aside: "I have tried merging some of them, but that made them harder to check.",
       checklist: "See the checklist before the window",
     },
     ways: {
       kicker: "Join in",
-      title: "Three ways to join in.",
-      intro:
-        "The code is the whole code, and it is free. I do not offer hosting, and there is nothing to buy. This is an invitation: build along, run it yourself, or just take the ideas home.",
+      title: "How to join in",
+      intro: "All the code is free. I do not offer hosting, and there is nothing to buy.",
       items: [
         {
           title: "Build along",
-          text: "Report a bug, bring an idea or send a change. If you have a tool of your own that lives up to the dogmas, it is welcome in the window. It does not have to be big, and you do not have to ask first.",
+          text: "Report a bug, suggest an idea or send a change on GitHub. If you have a tool of your own that follows the dogmas, it is welcome here too.",
         },
         {
           title: "Run it yourself",
-          text: "Clone the repository, run docker compose up, and point it at your own Ollama. One server, one Postgres, no keys to any cloud. That is enough to try it on a Friday afternoon, and it is the same setup that runs in a real production environment. The operations are yours, and so is the data.",
+          text: "Clone the repository, run docker compose up and point it at your own Ollama. It takes one server and a Postgres, and you do not need keys to any cloud. You handle the operations yourself.",
         },
         {
           title: "Get inspired",
-          text: "You do not have to use a single line of it. Read the dogmas and the checklist, look through the code, and take what you can use: a rule, a pattern, a way of thinking. If you build something of your own to the same demands, I would like to hear about it.",
+          text: "You do not have to use the tools. Read the dogmas and the checklist, look through the code and take what you can use. If you build something to the same demands, I would like to hear about it.",
         },
       ],
       code: "The code on GitHub",
@@ -252,8 +243,7 @@ export const copy: Record<Locale, Copy> = {
     selected: {
       kicker: "The shelf",
       title: "Selected",
-      intro:
-        "Open source by others that lives up to the dogmas and that I have used myself. I just point to it.",
+      intro: "Open source by others that follows the dogmas and that I have used myself.",
       site: "Visit",
       code: "Code",
       license: "License",
@@ -262,9 +252,9 @@ export const copy: Record<Locale, Copy> = {
       kicker: "About",
       title: "About Haij",
       paragraphs: [
-        "Haij is my side project. My name is Martin Nymann Vinther, and I have worked on large organizations' transformations for two decades. The tools here grew out of that work: things I was missing, and would rather build properly than buy half-finished.",
-        "There are no investors and no growth plan. Haij is a workshop: a place where I try things out, in the open, but with the same demands on security and data that a large organization would make. A hobby is no excuse for sloppy work, which is why there are dogmas and a checklist, and not just a roadmap.",
-        "The tools run on my own servers because I use them myself and the demos have to live somewhere, not because I offer hosting. The code is public, and you are welcome to use it, read it, report what you find and send changes. If you have a tool of your own that lives up to the dogmas, or just a good idea, write to me.",
+        "My name is Martin Nymann Vinther, and Haij is my side project. I have worked on transformations in large organizations for twenty years, and several of the tools started as something I was missing in that work.",
+        "There are no investors and no growth plan. I build this because I enjoy it, and I try to keep the same demands on security and data that a large organization would make. That is why there are dogmas and a checklist.",
+        "The tools run on my own servers because I use them myself and the demos have to live somewhere. I do not offer hosting. The code is public, so feel free to use it, report bugs and send changes. If you have an idea, or a tool of your own that follows the dogmas, please write.",
       ],
       contact: "Write to",
       security: "Report a security hole",
@@ -273,7 +263,7 @@ export const copy: Record<Locale, Copy> = {
     },
     footer: {
       license: "Open source under AGPL-3.0",
-      made: "Built in Denmark, after hours, to the dogmas.",
+      made: "Built in my spare time in Denmark.",
       privacy: "Privacy",
       terms: "Demo terms",
       checklist: "Ready for the window",
@@ -282,7 +272,7 @@ export const copy: Record<Locale, Copy> = {
     },
     notFound: {
       title: "That page does not exist.",
-      text: "Maybe it moved, maybe it is still only a good idea.",
+      text: "It may have been moved or deleted.",
       back: "To the front page",
     },
   },

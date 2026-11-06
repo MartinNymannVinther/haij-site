@@ -34,7 +34,6 @@ export function Hero({ locale }: { locale: Locale }) {
             {t.ctaSecondary}
           </a>
         </div>
-        <p className="text-meta mt-5 text-[0.875rem]">{t.honesty}</p>
       </div>
 
       {back?.image ? (
