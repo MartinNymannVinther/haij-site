@@ -11,7 +11,7 @@ export const dogmas: Record<Locale, Dogma[]> = {
   da: [
     {
       title: "Ægte open source.",
-      text: "Al kode ligger offentligt under AGPL-3.0. Alt vi driver, kan hentes 1:1 og køres et andet sted eller lokalt, og der findes ingen funktioner der kun kan fås på haij.dk. En betalt udgave er i orden, men den bygger på den samme kode. Kloner man repoet, får man præcis det der kører på haij.dk.",
+      text: "Al kode ligger offentligt under AGPL-3.0. Alt jeg driver, kan hentes 1:1 og køres et andet sted eller lokalt, og der findes ingen funktioner der kun kan fås på haij.dk. Kloner man repoet, får man præcis det der kører på haij.dk.",
     },
     {
       title: "Egen drift.",
@@ -19,11 +19,11 @@ export const dogmas: Record<Locale, Dogma[]> = {
     },
     {
       title: "Dine data, altid.",
-      text: "Alt en organisation ejer kan hentes ud med ét klik i åbne formater (regneark, JSON, PDF) uden at spørge nogen, og slettes helt igen. At forlade Haij skal kunne gøres med få klik uden unødvendig friktion, og vi hjælper gerne med flytningen frem for at gøre den besværlig.",
+      text: "Alt en organisation ejer kan hentes ud med ét klik i åbne formater (regneark, JSON, PDF) uden at spørge nogen, og slettes helt igen. At tage sine data med skal kunne gøres med få klik uden unødvendig friktion, og jeg hjælper gerne med flytningen frem for at gøre den besværlig.",
     },
     {
       title: "EU eller egen drift.",
-      text: "Når vi hoster, ligger alt hos EU-ejede leverandører på EU-jord, sprogmodeller inklusive, og hvert værktøj har en offentlig liste over hvem der kan se hvad. Ingen amerikansk sky i driften. Koden ligger på GitHub, som er kodehosting og ikke kundedata; et spejl hos en europæisk forge kommer den dag det giver mening.",
+      text: "Der hvor et værktøj kører for mig, ligger alt hos EU-ejede leverandører på EU-jord, sprogmodeller inklusive, og hvert værktøj har en offentlig liste over hvem der kan se hvad. Ingen amerikansk sky i driften. Koden ligger på GitHub, som er kodehosting og ikke brugerdata; et spejl hos en europæisk forge kommer den dag det giver mening.",
     },
     {
       title: "AI'en hjælper, mennesket bestemmer.",
@@ -35,13 +35,13 @@ export const dogmas: Record<Locale, Dogma[]> = {
     },
     {
       title: "Brugt i virkeligheden.",
-      text: "Intet af det vi selv har bygget kommer i vinduet før det har kørt rigtigt arbejde, hos os selv eller hos en kunde vi sidder tæt på. Værktøjer fra andre skal have et rigtigt brugssted vi kan pege på. Vi skal ikke have værktøjer liggende som ikke har skabt reel værdi i virkeligheden.",
+      text: "Intet af det jeg selv har bygget kommer i vinduet før det har kørt rigtigt arbejde, hos mig selv eller hos nogen jeg sidder tæt på. Værktøjer fra andre skal have et rigtigt brugssted jeg kan pege på. Jeg skal ikke have værktøjer liggende som ikke har skabt reel værdi i virkeligheden.",
     },
   ],
   en: [
     {
       title: "Real open source.",
-      text: "All code is public under AGPL-3.0. Everything we run can be downloaded 1:1 and run somewhere else or locally, and there are no features that can only be had on haij.dk. A paid edition is fine, but it is built on the same code. Clone the repository and you get exactly what runs on haij.dk.",
+      text: "All code is public under AGPL-3.0. Everything I run can be downloaded 1:1 and run somewhere else or locally, and there are no features that can only be had on haij.dk. Clone the repository and you get exactly what runs on haij.dk.",
     },
     {
       title: "Run it yourself.",
@@ -49,11 +49,11 @@ export const dogmas: Record<Locale, Dogma[]> = {
     },
     {
       title: "Your data, always.",
-      text: "Everything an organization owns can be taken out with one click in open formats (spreadsheet, JSON, PDF) without asking anyone, and deleted completely again. Leaving Haij must take a few clicks and no unnecessary friction, and we would rather help with the move than make it hard.",
+      text: "Everything an organization owns can be taken out with one click in open formats (spreadsheet, JSON, PDF) without asking anyone, and deleted completely again. Taking your data with you must take a few clicks and no unnecessary friction, and I would rather help with the move than make it hard.",
     },
     {
       title: "EU, or your own servers.",
-      text: "When we host, everything sits with EU-owned providers on EU soil, language models included, and every tool has a public list of who can see what. No American cloud in operations. The code lives on GitHub, which is code hosting and not customer data; a mirror at a European forge comes the day it makes sense.",
+      text: "Where a tool runs for me, everything sits with EU-owned providers on EU soil, language models included, and every tool has a public list of who can see what. No American cloud in operations. The code lives on GitHub, which is code hosting and not user data; a mirror at a European forge comes the day it makes sense.",
     },
     {
       title: "AI assists, people decide.",
@@ -65,7 +65,7 @@ export const dogmas: Record<Locale, Dogma[]> = {
     },
     {
       title: "Used for real.",
-      text: "Nothing we have built ourselves goes in the window before it has done real work, for us or for a customer we sit close to. Tools from others must have a real place of use we can point to. We do not keep tools around that have not created real value in practice.",
+      text: "Nothing I have built myself goes in the window before it has done real work, for me or for someone I sit close to. Tools from others must have a real place of use I can point to. I do not keep tools around that have not created real value in practice.",
     },
   ],
 };
